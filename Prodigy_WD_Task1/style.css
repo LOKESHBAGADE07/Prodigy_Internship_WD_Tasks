@@ -69,3 +69,35 @@ body {
 .scrolled .logo h1 {
     color:#f0a500;
 }
+/*Hero Section*/
+.hero {
+    height: 100vh;
+    background: url('hero-image.jpg') no repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.hero-content h2 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.hero-content p {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.cta-btn {
+    padding: 0.75rem 2rem;
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.cta-btn:hover {
+    background-color: #d48800;
+}
