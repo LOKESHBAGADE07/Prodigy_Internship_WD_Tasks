@@ -136,3 +136,10 @@ body {
     margin-bottom: 20px;
     color: #555;
 }
+/*Portfolio Section*/
+.portfolio {
+    padding: 100px 20px;
+    background: url('portfolio-background.jpg') no-reapet center center/cover;
+    color: white;
+    text-align: center;
+}
